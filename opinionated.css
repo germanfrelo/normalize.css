@@ -47,14 +47,12 @@
 }
 
 /**
- * 1. Add the correct box sizing in Firefox.
- * 2. Correct the inheritance of border color in Firefox.
+ * Add the correct box sizing in Firefox.
  */
 
 :where(hr) {
-  box-sizing: content-box; /* 1 */
-  color: inherit; /* 2 */
-  height: 0; /* 1 */
+  box-sizing: content-box;
+  height: 0;
 }
 
 /* Text-level semantics
